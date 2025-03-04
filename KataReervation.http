@@ -1,0 +1,18 @@
+@KataReservation_HostAddress = http://localhost:5205
+
+GET {{KataReservation_HostAddress}}/reservation/salles
+Accept: application/json
+
+###
+POST {{KataReservation_HostAddress}}/reservation/reservations
+Content-Type: application/json
+{
+  "id": "1",
+  "user": "Senda Rebai",
+  "room": "S1",
+  "debut": "2025-03-02T10:00:00",
+  "fin": "2025-03-02T11:00:00"
+}
+
+### Supprimer Reservation
+DELETE http://localhost:5000/api/reservations/1
