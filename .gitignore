@@ -1,3 +1,4 @@
-# Ignorer les répertoires obj et bin
+# Ignorer les rï¿½pertoires obj et bin
 obj/
 bin/
+/KataReervation/.vs
