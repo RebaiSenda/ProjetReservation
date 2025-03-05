@@ -1,0 +1,3 @@
+# Ignorer les répertoires obj et bin
+obj/
+bin/
